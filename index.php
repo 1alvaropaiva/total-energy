@@ -19,19 +19,20 @@ require 'conexao.php';
 
 <body class="d-flex align-items-center py-4 bg-body-tertiary">
   <main class="w-100 m-auto form-container">
-    <form>
+    <form action="login.php" method="POST">
       <img src="./img/logo.jpg" class="mb-4" height="57" width="72" style="border-radius: 20px;">
       <h3 class="id text-center">Identificação do Usuário</h3>
       <div class="form-floating mb-1">
-        <input type="email" class="form-control" id="floatinInput" placeholder="E-mail">
-        <label class="floatinEmail" for="floatinInput">E-mail</label>
+        <input type="text" class="form-control" id="floatinInput" name="username" placeholder="Login">
+        <label class="floatinEmail" for="floatinInput">Login</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" id="floatinSenha" placeholder="Senha">
+        <input type="password" class="form-control" id="floatinSenha" name="password" placeholder="Senha">
         <label class="floatinPw" for="floatinSenha">Senha</label>
       </div>
       <div class="form-check text-center my-3">
         <a class="resetpw" href="resetpw.php">Esqueci minha senha</a>
+        <a class="resetpw" href="cadastro.php">Cadastrar</a>
       </div>
       <button class="btn btn-primary w-100 py-2">Entrar</button>
     </form>

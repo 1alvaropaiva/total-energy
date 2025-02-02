@@ -1,8 +1,8 @@
 <?php 
 define('HOST', 'localhost');
-define('USUARIO', 'ttenergy');
-define('SENHA', 'totalenergy20');
+define('USUARIO', 'anajulia');
+define('SENHA', '');
 define('DB', 'ttenergy');
 
-$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('ncvjsdnv');
+$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('died');
 ?>

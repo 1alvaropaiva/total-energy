@@ -1,0 +1,1 @@
+<!-- aqui o usuario ja cadastrado digitará o nick dele e trocará a senha -->
