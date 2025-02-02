@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+}
+
+.form-container {
+    background-color: white;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+body {
+    background: radial-gradient(circle, #DAA520, black);
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.form-check-label {
+    color: black;
+}
+
+.id {
+    margin-bottom: 15px;
+    color: black;
+    font-weight: normal;
+}
+
+.btn-primary {
+    background-color: black; 
+    color: white;
+    border: black;
+}
+
+.btn-primary:hover {
+    background-color: #363636;
+    color: white;
+}
+
+.form-control {
+    background-color: white;
+    color: darkgray;
+}
+
+.resetpw {
+    font-size: 12px; /* Diminui o tamanho da fonte */
+    color: #46596b; /* Cor suave (você pode mudar para qualquer cor) */
+    text-decoration: none; /* Remove o sublinhado */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+    transition: color 0.3s ease; /* Efeito de transição suave ao passar o mouse */
+    margin-right: 30px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+.resetpw:hover {
+    color: black; /* Cor mais escura ao passar o mouse */
+}
+
+.text-center {
+    text-align: center; /* Centraliza o texto */
+}
+
+.form-check-input:hover {
+    cursor: pointer;
+}
+
+.form-floating label {
+    color: darkgray;
+}
+
+label {
+    transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+.form-floating input:focus {
+    border-color: darkgray; /* Borda azul para destacar, mas sem mudar o fundo */
+}
+
+#floatingInput:focus + label,
+#floatingPassword:focus + label {
+    font-weight: bold;
+}
