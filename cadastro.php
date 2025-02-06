@@ -24,11 +24,11 @@ require 'conexao.php';
       <img src="./img/logo.jpg" class="mb-4" height="57" width="72" style="border-radius: 20px;">
       <h3 class="id text-center">Cadastrar novo usuário</h3>
       <div class="form-floating mb-2">
-        <input type="text" class="form-control" id="floatinInput" name="username" placeholder="Login">
+        <input type="text" class="form-control" id="floatinInput" name="username" placeholder="Login" required>
         <label class="floatinEmail" for="floatinInput">Login</label>
       </div>
       <div class="form-floating mb-3">
-        <input type="password" class="form-control" id="floatinSenha" name="password" placeholder="Senha">
+        <input type="password" class="form-control" id="floatinSenha" name="password" placeholder="Senha" required>
         <label class="floatinPw" for="floatinSenha">Senha</label>
       </div>
      
